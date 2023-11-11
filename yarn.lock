@@ -3081,6 +3081,13 @@ expo-asset@~8.10.1:
     path-browserify "^1.0.0"
     url-parse "^1.5.9"
 
+expo-camera@^13.6.0:
+  version "13.6.0"
+  resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-13.6.0.tgz#a38537f474da4073ca4c19b5551e5178be5c899e"
+  integrity sha512-8lxK15D2tuEZom9bhDMMqNPW+5241Ak4wIup/ebh4JekgOtSQ/egbq7qDn2FCFi+5vPFKX4nRsvGOuzfuzvmZA==
+  dependencies:
+    invariant "^2.2.4"
+
 expo-constants@~14.4.2:
   version "14.4.2"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-14.4.2.tgz#cac5e8b524069545739b8d8595ce96cc5be6578c"
@@ -3088,6 +3095,13 @@ expo-constants@~14.4.2:
   dependencies:
     "@expo/config" "~8.1.0"
     uuid "^3.3.2"
+
+expo-contacts@^12.4.0:
+  version "12.4.0"
+  resolved "https://registry.yarnpkg.com/expo-contacts/-/expo-contacts-12.4.0.tgz#58f86165d44bf9e83621684148a9c0c09c2fbaa8"
+  integrity sha512-PXLvORckrXaerGSfASjGlY2WA/Cb4m5KHFUa0SHpT+sB3tsctyoUKK8rxiwo9vaGS1up7YmvWnbfdX57S9qRNw==
+  dependencies:
+    uuid "^3.4.0"
 
 expo-file-system@~15.4.0, expo-file-system@~15.4.4:
   version "15.4.4"
@@ -3128,12 +3142,19 @@ expo-modules-core@1.5.11:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
 
+expo-sensors@^12.5.0:
+  version "12.5.0"
+  resolved "https://registry.yarnpkg.com/expo-sensors/-/expo-sensors-12.5.0.tgz#30efbfda26184372a0972d79c6923ed2f4a2b137"
+  integrity sha512-5frGID37HFiKw9s0KCtuCnqD3gWYx7O8BU1oybJ9+qxiQ4emZoJzu0P7czV8D8cRTphv93ltkxqi2GXSTNSI8A==
+  dependencies:
+    invariant "^2.2.4"
+
 expo-status-bar@~1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.6.0.tgz#e79ffdb9a84d2e0ec9a0dc7392d9ab364fefa9cf"
   integrity sha512-e//Oi2WPdomMlMDD3skE4+1ZarKCJ/suvcB4Jo/nO427niKug5oppcPNYO+csR6y3ZglGuypS+3pp/hJ+Xp6fQ==
 
-expo@~49.0.15:
+expo@^49.0.16:
   version "49.0.16"
   resolved "https://registry.yarnpkg.com/expo/-/expo-49.0.16.tgz#60399f25f141d649707cef928b90305057000923"
   integrity sha512-1TcpWUEpzCQ7FjtwO1j+l/UvNgrEDZWfQm4kOo9eVZVDNKavYo+KL4XXHeljSAOOGhI/plmpD3bvhfYoywOAFQ==
